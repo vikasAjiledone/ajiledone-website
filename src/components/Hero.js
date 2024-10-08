@@ -63,21 +63,24 @@ const Hero = () => {
 
   return (
     <div className="container mx-auto px-4 overflow-hidden relative">
-      <Slider {...settings} className=" mt-12 w-full max-w-full">
-        <div className="p-4">
-          <div className="absolute inset-0 bg-black opacity-80 hover:opacity-70 rounded-lg"></div>
+      <div className="text-center pt-12">
+        <h2 className="text-4xl text-bolder">Our Projects</h2>
+      </div>
+      <Slider {...settings} className="mt-12 w-full max-w-full">
+        <div className="relative p-4">
+          <div className="absolute inset-0 bg-black opacity-80 rounded-lg"></div>
           <img src={slokart} alt="Slide 1" className="w-full h-auto" />
         </div>
-        <div className="p-4">
-          <div className="absolute inset-0 bg-black opacity-80 hover:opacity-70 rounded-lg"></div>
+        <div className="relative p-4">
+          <div className="absolute inset-0 bg-black opacity-80 rounded-lg"></div>
           <img src={saathi} alt="Slide 2" className="w-full h-auto" />
         </div>
-        <div className="p-4">
-          <div className="absolute inset-0 bg-black opacity-80 hover:opacity-70 rounded-lg"></div>
+        <div className="relative p-4">
+          <div className="absolute inset-0 bg-black opacity-80 rounded-lg"></div>
           <img src={Housing} alt="Slide 3" className="w-full h-auto" />
         </div>
-        <div className="p-4">
-          <div className="absolute inset-0 bg-black opacity-80 hover:opacity-70 rounded-lg"></div>
+        <div className="relative p-4">
+          <div className="absolute inset-0 bg-black opacity-80 rounded-lg"></div>
           <img src={wedding} alt="Slide 4" className="w-full h-auto" />
         </div>
       </Slider>
